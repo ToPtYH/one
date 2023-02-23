@@ -1,4 +1,4 @@
-# one
-lab1
-https://toptyh.github.io/one/lab11.html
-https://toptyh.github.io/one/lab12.html
+# Лабоараторная работа 1
+
+<br/>[Задание 1](https://toptyh.github.io/one/lab11.html)
+<br/>[Задание 2](https://toptyh.github.io/one/lab12.html)
