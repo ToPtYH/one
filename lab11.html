@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-
+scale=1.0" />
+
+<title>Сафин Мурат 0216</title>
+</head>
+<body>
+<script>
+"use strict";
+const x = parseInt(prompt("Введите стоймость товара", ""));
+const n = parseInt(prompt("Введите значение количество товара", ""));
+let y = parseInt(prompt("Введите скидку на товар", ""));
+if (y>5) //скидка не больше 5 и не менее 0
+{
+y = 5;
+}
+else if (y<0) 
+{
+    y=0;
+}
+
+let a = x * n ; //общая стоймость товара
+let b = y / 100 * a;//скидка
+let c = a - b;//цена со скидкой
+
+
+document.write("ООО 'Евроторг'");
+document.write("<h1> Спасибо за покупку!</h1>");
+document.write("Дата покупки:24.02.2023");
+
+document.write("<p>Наименование товара");
+document.write("<p>" + n + "шт = " + a +" руб");
+
+document.write("<h1>Итог</h1>");
+document.write("<p>" + a +" руб");
+
+document.write("<p>Ваша скидка:" + y +"%");
+document.write("<p>" + c + " руб");
+
+document.write("<h1>Сумма со скидкой</h1>");
+document.write(c +" руб");
+
+</script>
+</body>
+</html>
